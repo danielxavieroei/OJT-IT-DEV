@@ -39,12 +39,10 @@
     justify-content: space-between;
     margin-right: 96px;
     margin-left: 96px;
-    gap: 143.09;
 }
 
 .topleftsection{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     gap: 36px;
 }
@@ -75,7 +73,36 @@
 }
 
 /*mid section*/
+.midsectionleft{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 96px;
+    margin-left: 96px;
+    margin-top: 122.5px;
+    gap: 105px;
+}
+
 .visi{
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.misi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.parentvisi, .parentmisi{
+    display: flex;
+    flex-direction: column;
+    gap: 38.5px;
+}
+
+.descvisi, .descmisi{
+    font-size: 16px;
 }
