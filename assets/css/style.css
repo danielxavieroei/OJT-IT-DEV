@@ -11,6 +11,7 @@
     margin: 0;
 }
 
+/*navigation*/
 .navigation{
     display: flex;
     align-items: center;
@@ -31,6 +32,7 @@
     text-decoration: none;
 }
 
+/*upper section*/
 .upper-section{
     display: flex;
     align-items: flex-start;
@@ -40,17 +42,17 @@
     gap: 143.09;
 }
 
-/* .top-left section{
+.topleftsection{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     gap: 36px;
-} */
+}
 
 .title{
     font-size: 64px;
-    margin-top: 36px;
-    margin-bottom: 36px;
+    width: 588px;
+    height: 158px;
 }
 
 .highlighted{
@@ -59,7 +61,6 @@
 
 .desc{
     font-size: 20px;
-    margin-bottom: 36px;
 }
 
 .button1{
@@ -69,5 +70,12 @@
     border: none;
     padding: 20px 28px;
     font-size: 20px;
-    margin-bottom: 20px;
+    width: 260px;
+    height: 65px;
+}
+
+/*mid section*/
+.visi{
+    display: flex;
+    align-items: center;
 }
