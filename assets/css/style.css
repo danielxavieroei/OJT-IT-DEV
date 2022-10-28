@@ -5,9 +5,6 @@
 
 *{
     font-family: OpenSauceSans;
-}
-
-*{
     margin: 0;
 }
 
@@ -45,6 +42,8 @@
     display: flex;
     flex-direction: column;
     gap: 36px;
+    width: 622px;
+    height: 417px;
 }
 
 .title{
@@ -72,8 +71,8 @@
     height: 65px;
 }
 
-/*mid section*/
-.midsectionleft{
+/*upper middle section*/
+.uppermiddlesection{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -103,6 +102,89 @@
     gap: 38.5px;
 }
 
+.parentvisi{
+    width: 518px;
+    height: 172px;
+}
+
+.parentmisi{
+    width: 625px;
+    height: 292px;
+}
+
+.titlemisi, .titlevisi{
+    font-size: 48px;
+}
+
 .descvisi, .descmisi{
     font-size: 16px;
+    text-align: justify;
 }
+
+/*mid middle section*/
+.midmiddlesection{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 96px;
+    margin-left: 96px;
+    margin-top: 120.5px;
+    gap: 116px;
+}
+
+.mentor{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.parentmentor{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 414px;
+    gap: 64.5px;
+}
+
+.manfaat{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.softskill, .networking, .poinsat, .sertifikatmentor, .pengalamanmengajar, .modul, .aksesgratis{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.syarat{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.b25, .ipk, .pttkk{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.manfaat, .syarat p{
+    font-size: 16px;
+}
+
+.parentmentor p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.titlementor{
+    font-size: 64px;
+}
+
+.titlemanfaat, .titlesyarat{
+    font-size: 20px;
+}
+
+/*bottom middle section*/
