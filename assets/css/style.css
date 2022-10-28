@@ -17,6 +17,9 @@
     margin-left: 96px;
     margin-top: 42px;
     margin-bottom: 85px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
 }
 
 .navlink{
@@ -27,6 +30,12 @@
 .navlink > a{
     font-size: 20px;
     text-decoration: none;
+    color: #000000;
+}
+
+.navlink > a:hover{
+    font-size: x-large;
+    cursor: default;
 }
 
 /*upper section*/
