@@ -286,5 +286,25 @@
     font-size: 16px;
 }
 
-/*bottom section*/
+.parentmentee p{
+    font-size: 20px;
+    text-align: justify;
+}
 
+/*bottom section*/
+.bottomsection{
+    margin-top: 120px;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.titlevideo{
+    font-size: 48px;
+}
+
+/*footer*/
