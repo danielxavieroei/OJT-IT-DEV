@@ -152,7 +152,7 @@
     flex-direction: column;
     width: 550px;
     height: 414px;
-    gap: 64.5px;
+    gap: 64px;
 }
 
 .manfaat{
@@ -197,3 +197,94 @@
 }
 
 /*bottom middle section*/
+.bottommiddlesection{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-right: 96px;
+    margin-left: 96px;
+    gap: 102px;
+}
+
+.mentee{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.parentmentee{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 384px;
+    gap: 64px;
+}
+
+.syaratmentee img{
+    width: 32px;
+    height: 32px;
+}
+
+.manfaatmentee{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.softskillmentee, .pengetahuanmentee, .modulmentee{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.syaratmentee{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.b25mentee{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.manfaatsyarat{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 54px;
+}
+
+.registrasi{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.titleregistrasi{
+    font-size: 20px;
+}
+
+.harga{
+    font-size: 35px;
+    color: #19A89D;
+    font-weight: bolder;
+}
+
+.titlementee{
+    font-size: 64px;
+}
+
+.titlemanfaatmentee, .titlesyaratmentee{
+    font-size: 20px;
+}
+
+.manfaatmentee, .syaratmentee p{
+    font-size: 16px;
+}
+
+/*bottom section*/
+
