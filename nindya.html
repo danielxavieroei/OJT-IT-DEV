@@ -71,59 +71,61 @@
     </section>
 
     <!--bottom section-->
+    <form action="#" method="get">
     <section class="bottomsection">
         <h1 class="titlependaftaran">Pendaftaran Nindya</h1>
         <div class="parentpendaftaran">
             <div class="datakiri">
                 <div class="nama">
                     <label for="name">Nama</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" required>
                 </div>
                 <div class="nonim">
                     <label for="nim">NIM</label>
-                    <input type="text" id="nim">
+                    <input type="text" id="nim" required>
                 </div>
                 <div class="almtemail">
                     <label for="email">Email</label>
-                    <input type="text" id="email">
+                    <input type="text" id="email" required>
                 </div>
                 <div class="major">
                     <label for="jurusan">Jurusan</label>
-                    <input type="text" id="jurusan">
+                    <input type="text" id="jurusan" required>
                 </div>
                 <div class="lokasi">
                     <label for="regional">Regional</label>
                     <select name="regional" id="regional">
-                        <option value="kemanggisan">Kemanggisan</option>
-                        <option value="alamsutera">Alam Sutera</option>
-                        <option value="bekasi">Bekasi</option>
-                        <option value="senayan">Senayan</option>
+                        <option value="Kemanggisan">Kemanggisan</option>
+                        <option value="Alam Sutera">Alam Sutera</option>
+                        <option value="Bekasi">Bekasi</option>
+                        <option value="Senayan">Senayan</option>
                     </select>
                 </div>
                 <div class="subdivisi">
                     <label for="pilihsubdivisi">Subdivisi Pilihan</label>
                     <select name="pilihsubdivisi" id="pilihsubdivisi">
-                        <option value="creativeandresearch">Creative and Research</option>
-                        <option value="engagement">Engagement</option>
-                        <option value="mentoring">Mentoring</option>
-                        <option value="publicdevelopment">Public Development</option>
-                        <option value="businessdevelopment">Business Development</option>
-                        <option value="publicrelation">Public Relation</option>
-                        <option value="design">Design</option>
-                        <option value="itdevelopmet">IT Development</option>
-                        <option value="itsupport">IT Support</option>
+                        <option value="Creative and Research">Creative and Research</option>
+                        <option value="Engagement">Engagement</option>
+                        <option value="Mentoring">Mentoring</option>
+                        <option value="Public Development">Public Development</option>
+                        <option value="Business Development">Business Development</option>
+                        <option value="Public Relation">Public Relation</option>
+                        <option value="Design">Design</option>
+                        <option value="IT Development">IT Development</option>
+                        <option value="IT Support">IT Support</option>
                     </select>
                 </div>
             </div>
             <div class="datakanan">
                 <div class="alasan">
                     <label for="reason">Alasan ingin menjadi Nindya</label>
-                    <input type="text" id="reason">
+                    <input type="text" id="reason" required>
                 </div>
-                <input type="button" onclick="window.location.href='https://join.bslc.or.id/';" value="Daftar Sekarang" class="button2">
+                <input type="button" onclick="validation()" value="Daftar Sekarang" class="button2">
             </div>
         </div>
     </section>
+    </form>
 
     <!--footer-->
     <footer class="footerwebsite">
@@ -148,6 +150,7 @@
         <img src="assets/img/logo-bslc-white.svg" alt="">
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
     <script src="assets/js/form.js"></script>
 </body>
 </html>
