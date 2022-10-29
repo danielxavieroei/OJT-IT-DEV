@@ -107,13 +107,104 @@
 /*bottom section*/
 .datakiri{
     width: 517px;
-    height: 62px;
     display: flex;
     flex-direction: column;
     gap: 46px;
 }
 
-.nama, .nonim, .almtemail, .major, .lokasi, .subdivisi{
+.nama, .nonim, .almtemail, .major, .lokasi, .subdivisi, .alasan{
     display: flex;
     flex-direction: column;
+}
+
+.datakanan{
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+
+#reason{
+    width: 611px;
+    height: 358px;
+}
+
+.parentpendaftaran{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.bottomsection{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    margin-top: 120px;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.titlependaftaran{
+    font-size: 48px;
+}
+
+.datakiri, .datakanan *{
+    font-size: 24px;
+}
+
+.button2{
+    color: white;
+    background-color: #19A89D;
+    text-decoration: none;
+    border: none;
+    padding: 20px 28px;
+    font-size: 20px;
+    width: 215px;
+    height: 65px;
+    text-align: center;
+}
+
+/*footer*/
+.footerwebsite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-top: 83.5px;
+    padding-bottom: 83.5px;
+    margin-top: 120px;
+    background-color: black;
+}
+
+.sosialmedia{
+    display: flex;
+    gap: 26px;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.visitus{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 468px;
+    height: 116px;
+}
+
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.contactus, .visitus{
+    color: white;
+}
+
+.titlefooter, .descvisitus{
+    font-size: 16px;
 }
