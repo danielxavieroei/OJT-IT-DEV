@@ -1,0 +1,9 @@
+@font-face {
+    font-family: OpenSauceSans;
+    src: url(../fonts/OpenSauceSans-Regular.ttf);
+}
+
+*{
+    font-family: OpenSauceSans;
+    margin: 0;
+}
