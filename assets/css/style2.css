@@ -69,3 +69,39 @@
 }
 
 /*middle section*/
+.middlesection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 96px;
+    margin-left: 96px;
+    margin-top: 120px;
+    gap: 36px;
+}
+
+.learning, .marketing, .hc, .it{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.parentlearning, .parentmarketing, .parenthc, .parentit{
+    display: flex;
+    flex-direction: column;
+    gap: 38.5px;
+}
+
+.divisi{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 128px;
+}
+
+.titledivisi{
+    font-size: 48px;
+}
+
+/*bottom section*/
