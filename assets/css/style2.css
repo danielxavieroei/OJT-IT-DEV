@@ -7,3 +7,65 @@
     font-family: OpenSauceSans;
     margin: 0;
 }
+
+/*navigation*/
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 96px;
+    margin-left: 96px;
+    margin-top: 42px;
+    margin-bottom: 85px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.navlink{
+    display: flex;
+    gap: 64px;
+}
+
+.navlink > a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navlink > a:hover{
+    font-size: x-large;
+    cursor: default;
+}
+
+/*upper section*/
+.uppersection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 96px;
+    margin-left: 96px;
+}
+
+.topleftsection{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 540px;
+    height: 275px;
+}
+
+.title{
+    font-size: 48px;
+}
+
+.topleftsection > p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.highlighted{
+    font-weight: bolder;
+}
+
+/*middle section*/
