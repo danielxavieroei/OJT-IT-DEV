@@ -308,3 +308,47 @@
 }
 
 /*footer*/
+.footerwebsite{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 128px;
+    padding-right: 128px;
+    padding-top: 83.5px;
+    padding-bottom: 83.5px;
+    margin-top: 200px;
+    background-color: black;
+}
+
+.sosialmedia{
+    display: flex;
+    gap: 26px;
+}
+
+.contactus{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.visitus{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 468px;
+    height: 116px;
+}
+
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.contactus, .visitus{
+    color: white;
+}
+
+.titlefooter, .descvisitus{
+    font-size: 16px;
+}
