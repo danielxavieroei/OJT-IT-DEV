@@ -105,3 +105,15 @@
 }
 
 /*bottom section*/
+.datakiri{
+    width: 517px;
+    height: 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+
+.nama, .nonim, .almtemail, .major, .lokasi, .subdivisi{
+    display: flex;
+    flex-direction: column;
+}
