@@ -52,7 +52,8 @@
     flex-direction: column;
     gap: 36px;
     width: 622px;
-    height: 417px;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .title{
@@ -87,8 +88,7 @@
     justify-content: space-between;
     margin-right: 96px;
     margin-left: 96px;
-    margin-top: 122.5px;
-    gap: 105px;
+    margin-top: 120px;
 }
 
 .visi, .misi{
@@ -130,7 +130,7 @@
     justify-content: space-between;
     margin-right: 96px;
     margin-left: 96px;
-    margin-top: 120.5px;
+    margin-top: 120px;
     gap: 116px;
 }
 
@@ -151,25 +151,31 @@
 .manfaat{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 18px;
 }
 
 .softskill, .networking, .poinsat, .sertifikatmentor, .pengalamanmengajar, .modul, .aksesgratis{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
 }
 
 .syarat{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 18px;
 }
 
 .b25, .ipk, .pttkk{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
+}
+
+.manfaatsyarat{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .manfaat, .syarat p{
@@ -222,32 +228,37 @@
 .manfaatmentee{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
 }
 
 .softskillmentee, .pengetahuanmentee, .modulmentee{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
+}
+
+.parentmanfaatmentee{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 .syaratmentee{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 18px;
 }
 
 .b25mentee{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 16px;
 }
 
-.manfaatsyarat{
+.manfaatsyaratmentee{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 54px;
 }
 
 .registrasi{
@@ -259,6 +270,7 @@
 
 .titleregistrasi{
     font-size: 20px;
+    font-style: italic;
 }
 
 .harga{
@@ -287,6 +299,7 @@
 /*bottom section*/
 .bottomsection{
     margin-top: 120px;
+    justify-content: center;
 }
 
 .video{
@@ -307,15 +320,15 @@
     justify-content: space-between;
     padding-left: 128px;
     padding-right: 128px;
-    padding-top: 83.5px;
-    padding-bottom: 83.5px;
+    padding-top: 117px;
+    padding-bottom: 117px;
     margin-top: 120px;
     background-color: black;
 }
 
 .sosialmedia{
     display: flex;
-    gap: 26px;
+    gap: 24px;
 }
 
 .contactus{

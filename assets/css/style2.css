@@ -84,13 +84,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 22px;
+    gap: 16px;
+}
+
+.learningpoint, .marketingpoint, .hcpoint, .itpoint{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .parentlearning, .parentmarketing, .parenthc, .parentit{
     display: flex;
     flex-direction: column;
-    gap: 38.5px;
+    gap: 32px;
 }
 
 .divisi{
@@ -109,7 +115,7 @@
     width: 517px;
     display: flex;
     flex-direction: column;
-    gap: 46px;
+    gap: 36px;
 }
 
 .nama, .nonim, .almtemail, .major, .lokasi, .subdivisi, .alasan{
@@ -171,15 +177,15 @@
     justify-content: space-between;
     padding-left: 128px;
     padding-right: 128px;
-    padding-top: 83.5px;
-    padding-bottom: 83.5px;
+    padding-top: 117px;
+    padding-bottom: 117px;
     margin-top: 120px;
     background-color: black;
 }
 
 .sosialmedia{
     display: flex;
-    gap: 26px;
+    gap: 24px;
 }
 
 .contactus{
