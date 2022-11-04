@@ -88,7 +88,6 @@
     justify-content: space-between;
     margin-right: 96px;
     margin-left: 96px;
-    margin-top: 120px;
 }
 
 .visi, .misi{
@@ -130,7 +129,6 @@
     justify-content: space-between;
     margin-right: 96px;
     margin-left: 96px;
-    margin-top: 120px;
     gap: 116px;
 }
 
@@ -200,7 +198,6 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: 120px;
     margin-right: 96px;
     margin-left: 96px;
     gap: 102px;
@@ -298,7 +295,6 @@
 
 /*bottom section*/
 .bottomsection{
-    margin-top: 120px;
     justify-content: center;
 }
 
@@ -311,6 +307,13 @@
 
 .titlevideo{
     font-size: 48px;
+}
+
+/*main*/
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
 }
 
 /*footer*/
